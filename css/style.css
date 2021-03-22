@@ -106,18 +106,24 @@ nav a:focus{
     background-color:#F2F2F2;
     border-radius:10px 0px 0px 10px;
     padding:0px;
-    text-align:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
     }
 #section_filter{
-    justify-content:space-between;
+    justify-content:space-around;
+    width:70%;
+    display:flex;
 }
 .container_filter{
     justify-content:space-around;
+    display:flex;
+    width:70%;
 }
 
 #section_filter p{
     display:flex;
-    justify-content:left;
+    width:30%;
 }
 
 .container_filter .fas{
