@@ -154,6 +154,7 @@ nav a:focus{
 
 .container_hebergement_populaire{
     justify-content: space-around;
+    width:100%;
 }
 
 .article{
@@ -170,11 +171,13 @@ nav a:focus{
 .fond_hebergement{
     background-color:#F2F2F2;
     border-radius:20px;
+    width:62%;
 }
 
 #marseille{
     flex-wrap:wrap;
     justify-content: space-around;
+    display:flex;
     height:500px;
 }
 
@@ -186,7 +189,7 @@ padding: 0px;
 box-shadow: 5px 5px 5px lightgrey;
 display:flex;
 flex-direction:column;
-height:30%;
+height:40%;
 width:30%;
 }
 
@@ -195,7 +198,46 @@ width:30%;
     background-size:cover;
     background-position:center;
     height:50%;
-    border:red 1px solid;
+    border-radius: 10px 10px 0px 0px;
+}
+.cadre_port{
+    background-image:url("./img/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
+    background-size:cover;
+    background-position:center;
+    height:50%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.cadre_mouettes{
+    background-image:url("./img/reisetopia-B8WIgxA_PFU-unsplash.jpg");
+    background-size:cover;
+    background-position:center;
+    height:50%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.cadre_mer{
+    background-image:url("./img/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
+    background-size:cover;
+    background-position:center;
+    height:50%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.cadre_panier{
+    background-image:url("./img/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
+    background-size:cover;
+    background-position:center;
+    height:50%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.cadre_amina{
+    background-image:url("./img/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+    background-size:cover;
+    background-position:center;
+    height:50%;
+    border-radius: 10px 10px 0px 0px;
 }
 
 .cadre_texte{
@@ -203,7 +245,6 @@ width:30%;
     display:flex;
     justify-content: space-around;
     flex-direction:column;
-    border:solid 1px;
 }
 
 .cadre_texte h5{
@@ -232,6 +273,7 @@ width:30%;
 #populaires{
     background-color:#F2F2F2;
     border-radius:20px;
+    width:32%;
 }
 #populaires .cadrelong {
     border: solid 4px white;
