@@ -130,9 +130,14 @@ nav a:focus{
     width:70%;
 }
 
+.container_filter p{
+    display:flex;
+    align-items:center;
+    border:1px solid black;
+}
+
 #section_filter p{
     display:flex;
-    width:30%;
 }
 
 .container_filter .fas{
@@ -279,10 +284,21 @@ width:30%;
 #marseille h5{
     font-size:1.1rem;
 }
-#populaires{
+#populaires_parent{
     background-color:#F2F2F2;
     border-radius:20px;
     width:32%;
+    display:flex;
+    justify-content:center;
+}
+
+#populaires{
+    width:85%;
+
+}
+
+.texte{
+    width:65%;
 }
 
 .cadre_populaires{
@@ -303,6 +319,7 @@ width:30%;
     margin-bottom: 5px;
     box-shadow: 5px 5px 5px lightgray;
     display:flex;
+    justify-content:space-between;
 }
 
 #populaires .cadrelong img{
@@ -352,11 +369,15 @@ width:30%;
     background-size:cover;
     background-position:center;
     border-radius: 10px 10px 0px 0px;
-    border:solid 1px red;
     height:450px;
 }
 
-.cadre_fort_frioul{
+.parent_cadre{
+    box-shadow: 5px 3px 5px  grey; 
+    border-radius: 10px 10px 0px 0px;
+}
+
+.cadre_fort_pomegues{
     height:500px;
     width:24%;
 }
@@ -398,7 +419,7 @@ width:30%;
     background-color:white;
     height:500px;
     border-radius: 0px 0px 10px 10px;
-    box-shadow: 5px 5px 5px #F2F2F2;
+    box-shadow: 5px 3px 5px  grey; 
 }
 .notre_dame{
     background-image:url("./img/florian-wehde-xW9e8gdotxI-unsplash.jpg");
