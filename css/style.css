@@ -133,7 +133,7 @@ nav a:focus{
 .container_filter p{
     display:flex;
     align-items:center;
-    border:1px solid;
+    border: 0.12rem solid;
     border-color:lightgray lightgray lightgray #DEEBFF;
     border-radius:30px;
 }
@@ -191,6 +191,7 @@ nav a:focus{
     width:62%;
     display:flex;
     flex-wrap:wrap;
+    padding:1%;
 }
 
 #marseille{
@@ -364,6 +365,7 @@ width:30%;
     display: flex;
     flex-wrap:wrap;
     width:100%;
+    margin-bottom:3%;
 }
 .container_activities div{
     margin-right:1%;
@@ -378,8 +380,8 @@ width:30%;
 }
 
 .parent_cadre{
-    box-shadow: 5px 3px 5px  grey; 
-    border-radius: 10px 10px 0px 0px;
+    box-shadow: 5px 3px 5px #F2F2F2; 
+    border-radius: 10px 10px 10px 10px;
 }
 
 .cadre_fort_pomegues{
@@ -423,8 +425,8 @@ width:30%;
     width:24%;
     background-color:white;
     height:500px;
-    border-radius: 0px 0px 10px 10px;
-    box-shadow: 5px 3px 5px  grey; 
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 5px 3px 5px #F2F2F2; 
 }
 .notre_dame{
     background-image:url("./img/florian-wehde-xW9e8gdotxI-unsplash.jpg");
