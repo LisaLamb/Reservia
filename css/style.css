@@ -133,11 +133,14 @@ nav a:focus{
 .container_filter p{
     display:flex;
     align-items:center;
-    border:1px solid black;
+    border:1px solid;
+    border-color:lightgray lightgray lightgray #DEEBFF;
+    border-radius:30px;
 }
 
 #section_filter p{
     display:flex;
+    align-items:center;
 }
 
 .container_filter .fas{
@@ -186,6 +189,8 @@ nav a:focus{
     background-color:#F2F2F2;
     border-radius:20px;
     width:62%;
+    display:flex;
+    flex-wrap:wrap;
 }
 
 #marseille{
