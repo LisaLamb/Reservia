@@ -511,6 +511,21 @@ footer{
         #section_activities{
             margin-top:5%;
         }
+    }
+    @media only screen and (max-width: 425px) {
+        #section_filter{
+            justify-content:space-evenly;
+            width:100%;
+        }
+        .container_filter{
+            justify-content: space-between;
+            flex-direction: column;
+            width:50%;
+        }
+
+        #marseille{
+            flex-direction:row;
+        }
 
     }
 
