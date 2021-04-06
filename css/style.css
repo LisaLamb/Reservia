@@ -52,6 +52,7 @@ nav a:focus{
 
 #logo{
     justify-content: flex-start;
+    margin-left:1%;
 }
 
 #bouton{
@@ -71,11 +72,11 @@ nav a:focus{
 
 /*header*/
 #titre1 h2 {
-    margin:0 0 20px 10px;
+    margin-left:1%;
     }
     
 #titre2 p{
-    margin:10px 0 20px 10px;
+    margin-left:1%;
     }
 
 /*stars*/
@@ -98,16 +99,19 @@ nav a:focus{
     border-width:1px 1px 1px 0;
     border-color: #0065FC;
     color:#fff;
+    width:7%;
     border-radius:0px 10px 10px 0px;
+    font-size:1rem;
     }
 
 #recherche input{
     border-width:1px 0 1px 0;
     border-color:#F2F2F2;
     padding:0px;
-    height:30px;
+    height:35px;
     padding-left:10px;
     font-weight: bold;
+    font-size:1rem;
     }
 
 #recherche .fas.fa-map-marker-alt{
@@ -121,7 +125,7 @@ nav a:focus{
     }
 #section_filter{
     justify-content:space-around;
-    width:70%;
+    width:60%;
     display:flex;
 }
 .container_filter{
@@ -167,6 +171,7 @@ nav a:focus{
 #info i{
     color:#0065FC;
     margin-right:10px;
+    margin-left:1%;
 }
 
 .container_hebergement_populaire{
