@@ -486,6 +486,32 @@ footer{
         #search{
             display:none;
         }
+        #section_filter{
+            justify-content:space-around;
+            width:100%;
+        }
+        .container_filter{
+            justify-content:space-around;
+            width:80%;
+        }
+        .container_hebergement_populaire{
+            flex-direction: column;
+            width:100%;
+        }
+        .fond_hebergement{
+            width:95%;
+        }
+
+        #populaires_parent{
+            width:100%;
+            background-color:white;
+            margin-top:5%;
+        }
+
+        #section_activities{
+            margin-top:5%;
+        }
+
     }
 
 
