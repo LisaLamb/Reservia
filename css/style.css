@@ -548,7 +548,14 @@ footer{
         }
 
         #marseille{
-            flex-direction:row;
+            flex-direction:column;
+            flex-wrap: nowrap;
+            height:100%;
+        }
+
+        #marseille .cadre{
+            height:100%;
+            width:100%;
         }
 
         #navigation {
@@ -573,6 +580,47 @@ footer{
             width:100%;
             justify-content:space-around;
         }
+
+        #recherche #loupe {
+            width:20%;
+        }
+
+        #populaires_parent{
+            background-color:#F2F2F2;
+            border-radius:0;
+            width:100%;
+            margin-bottom:10%;
+        }
+
+        .fond_hebergement{
+            background-color:white;
+            flex-direction: column;
+        }
+
+        #section_activities{
+            height:500px;
+        }
+
+        .container_activities{
+            flex-wrap: nowrap;
+            flex-direction: column;
+            height:100%;
+        }
+
+        .cadre_activities{
+            height:15%;
+        }
+
+        .parent_cadre{
+            height:15%;
+        }
+
+        .cadre_fort_pomegues{
+            height:15%;
+        }
+
+
+
 
     }
 
