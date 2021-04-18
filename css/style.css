@@ -45,6 +45,8 @@ nav a:focus{
 #navigation{
     display: flex;
     justify-content: space-between;
+    margin-right:1%;
+    align-items: center;
 }
 .container_menu{
     justify-content: space-between;
@@ -57,10 +59,12 @@ nav a:focus{
 
 #bouton{
     display:flex;
+    margin-right:0%;
 }
 
 #menu{
     display: flex;
+    width:100%;
 }
 
 #bouton a{
@@ -145,6 +149,7 @@ nav a:focus{
 #section_filter p{
     display:flex;
     align-items:center;
+    padding-right:1%;
 }
 
 .container_filter .fas{
@@ -196,7 +201,15 @@ nav a:focus{
     width:62%;
     display:flex;
     flex-wrap:wrap;
-    padding:1%;
+    padding:1.5%;
+}
+
+.fond_hebergement h2{
+    margin-left:2%;
+}
+
+.learnmore {
+    padding-left:2%
 }
 
 #marseille{
@@ -331,6 +344,7 @@ width:30%;
     box-shadow: 5px 5px 5px lightgray;
     display:flex;
     justify-content:space-between;
+    margin-bottom:8%;
 }
 
 #populaires .cadrelong img{
@@ -364,13 +378,15 @@ width:30%;
 }
 /*Activites*/
 #section_activities{
-    width:98%;
+    width:99%;
+    margin-left:1%;
 }
 .container_activities{
     display: flex;
     flex-wrap:wrap;
     width:100%;
     margin-bottom:3%;
+    height:500px;
 }
 .container_activities div{
     margin-right:1%;
@@ -387,21 +403,28 @@ width:30%;
 .parent_cadre{
     box-shadow: 5px 3px 5px #F2F2F2; 
     border-radius: 10px 10px 10px 10px;
+    height:47%;
 }
 
 .cadre_fort_pomegues{
-    height:500px;
+    height:100%;
     width:24%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .cadre_garde_parc{
-    height:500px;
+    height:100%;
     width:24%;
     margin-right:0px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .pomegues{
-    height:200px;
+    height:80%;
     background-image:url("./img/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
     background-size:cover;
     background-position:center;
@@ -410,7 +433,7 @@ width:30%;
 }
 
 .frioul{
-    height:200px;
+    height:80%;
     background-image:url("./img/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
     background-size:cover;
     background-position:center;
@@ -435,7 +458,7 @@ width:30%;
 }
 .notre_dame{
     background-image:url("./img/florian-wehde-xW9e8gdotxI-unsplash.jpg");
-    height:200px;
+    height:80%;
     background-size:cover;
     background-position:center;
     border-radius: 10px 10px 0px 0px;
@@ -444,7 +467,7 @@ width:30%;
 
 .longchamp{
     background-image:url("./img/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
-    height:200px;
+    height:80%;
     background-size:cover;
     background-position:center;
     border-radius: 10px 10px 0px 0px;
@@ -495,7 +518,7 @@ footer{
             width:80%;
         }
         .container_hebergement_populaire{
-            flex-direction: column;
+            flex-direction: column-reverse;
             width:100%;
         }
         .fond_hebergement{
@@ -518,13 +541,37 @@ footer{
             width:100%;
         }
         .container_filter{
-            justify-content: space-between;
-            flex-direction: column;
-            width:50%;
+            justify-content: space-evenly;
+            flex-direction: row;
+            width:100%;
+            flex-wrap: wrap;
         }
 
         #marseille{
             flex-direction:row;
+        }
+
+        #navigation {
+            flex-direction: column-reverse;
+            align-items: flex-end;  
+            height:80px;
+          }
+        
+          .container_menu{
+              justify-content: space-between;
+              flex-direction: column;
+          }
+
+        #logo{
+            justify-content: flex-start;
+            margin-left:1%;
+            height:0;
+        }
+
+        nav{
+            display: flex;
+            width:100%;
+            justify-content:space-around;
         }
 
     }
