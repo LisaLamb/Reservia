@@ -655,6 +655,18 @@ footer{
             border-radius: 10px 10px 10px 10px;
         }
 
+        .texte h5{
+            margin:0;
+        }
+
+        .texte p{
+            margin-top:0;
+        }
+
+        .cadre_soleil, .cadre_hote, .cadre_hotel_bleu{
+            width:33%;
+        }
+
     }
 
 
