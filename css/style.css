@@ -231,51 +231,57 @@ height:40%;
 width:30%;
 }
 
-.cadre_cannebiere{
-    background-image:url("./img/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
+.cadre_image {
+    /*background-image:url("./img/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
     background-size:cover;
     background-position:center;
+    
+    border-radius: 10px 10px 0px 0px;*/
     height:50%;
-    border-radius: 10px 10px 0px 0px;
+    
+}
+
+.cadre_image img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
 }
 .cadre_port{
-    background-image:url("./img/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
-    background-size:cover;
+    /*background-size:cover;
     background-position:center;
+    border-radius: 10px 10px 0px 0px;*/
     height:50%;
-    border-radius: 10px 10px 0px 0px;
 }
 
 .cadre_mouettes{
-    background-image:url("./img/reisetopia-B8WIgxA_PFU-unsplash.jpg");
-    background-size:cover;
+    /*background-size:cover;
     background-position:center;
+    border-radius: 10px 10px 0px 0px;*/
     height:50%;
-    border-radius: 10px 10px 0px 0px;
 }
 
 .cadre_mer{
-    background-image:url("./img/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
+    /*
     background-size:cover;
     background-position:center;
+    border-radius: 10px 10px 0px 0px;*/
     height:50%;
-    border-radius: 10px 10px 0px 0px;
 }
 
 .cadre_panier{
-    background-image:url("./img/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
+   /*
     background-size:cover;
     background-position:center;
+    border-radius: 10px 10px 0px 0px;*/
     height:50%;
-    border-radius: 10px 10px 0px 0px;
 }
 
 .cadre_amina{
-    background-image:url("./img/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+    /*
     background-size:cover;
     background-position:center;
+    border-radius: 10px 10px 0px 0px;*/
     height:50%;
-    border-radius: 10px 10px 0px 0px;
 }
 
 .cadre_texte{
@@ -598,7 +604,7 @@ footer{
         }
 
         #section_activities{
-            height:500px;
+            height:2000px;
         }
 
         .container_activities{
@@ -609,18 +615,34 @@ footer{
 
         .cadre_activities{
             height:15%;
+            width:100%;
         }
 
         .parent_cadre{
-            height:15%;
+            height:50%;
         }
 
         .cadre_fort_pomegues{
+            height:30%;
+            width:100%;
+        }
+
+        .cadre_vieux_port{
             height:15%;
         }
 
+        .cadre_garde_parc{
+            height:30%;
+            width:100%;
+        }
 
+        .cadre_calanques{
+            height:100%;
+        }
 
+        .learnmore{
+            margin-top:10px;
+        }
 
     }
 
