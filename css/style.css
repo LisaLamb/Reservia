@@ -152,6 +152,10 @@ nav a:focus{
     padding-right:1%;
 }
 
+#section_filter p:hover{
+    opacity:50%;
+}
+
 .container_filter .fas{
     border: solid 1px#DEEBFF;
     background-color:#DEEBFF;
