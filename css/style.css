@@ -667,6 +667,14 @@ footer{
             width:33%;
         }
 
+        .cadre_image {
+            height:30%;
+        }
+
+        .container_footer{
+            display:block;
+        }
+
     }
 
 
