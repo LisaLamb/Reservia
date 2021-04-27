@@ -25,6 +25,10 @@ nav a{
     color:gray;
 }
 
+a{
+    text-decoration:none;
+}
+
 /*menu*/
 .nav a{
     display:flex;
