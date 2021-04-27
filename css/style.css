@@ -600,26 +600,27 @@ footer{
         }
 
         #section_activities{
-            height:2000px;
+            height:1600px;
+            margin:0;
         }
 
         .container_activities{
             flex-wrap: nowrap;
             flex-direction: column;
-            height:100%;
+            height:95%;
         }
 
         .cadre_activities{
             width:100%;
-            height:10%;
+            height:17%;
         }
 
         .parent_cadre{
-            height:50%;
+            height:48%;
         }
 
         .cadre_fort_pomegues{
-            height:20%;
+            height:34%;
             width:100%;
         }
 
@@ -632,7 +633,7 @@ footer{
         }
 
         .cadre_garde_parc{
-            height:20%;
+            height:34%;
             width:100%;
         }
 
@@ -646,6 +647,14 @@ footer{
         }
         .cadre_vieux_port{
             height:80%;
+        }
+
+        .texte_seul{
+            height:15%;
+        }
+
+        .cadre_vieux_port div{
+            height:15%;
         }
 
         #recherche button{
@@ -670,6 +679,10 @@ footer{
 
         .container_footer{
             display:block;
+        }
+
+        .container_activities div{
+            margin:0;
         }
 
     }
