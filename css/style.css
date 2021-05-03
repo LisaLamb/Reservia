@@ -23,17 +23,15 @@ nav a{
     font-family: 'Raleway',sans-serif;
     text-decoration:none;
     color:gray;
-}
-
-a{
-    text-decoration:none;
-}
-
-/*menu*/
-.nav a{
     display:flex;
     justify-content:flex-end;
+    height:100%;
+    text-decoration:none;
+    align-items:center;
 }
+
+
+/*menu*/
 nav a:active{
     margin-right:30px;
     color:#0065FC;
@@ -46,14 +44,23 @@ nav a:focus{
     border-top: 2px solid #0065FC;
 }
 
+nav {
+    height:100%;
+    display:flex;
+    align-items:center;
+}
+
 #navigation{
     display: flex;
     justify-content: space-between;
     margin-right:1%;
     align-items: center;
+    height:100%;
 }
 .container_menu{
     justify-content: space-between;
+    height:100px;
+    align-items:center;
 }
 
 #logo{
@@ -69,6 +76,7 @@ nav a:focus{
 #menu{
     display: flex;
     width:100%;
+    height:100%;
 }
 
 #bouton a{
@@ -518,6 +526,10 @@ footer{
             width:90%;
             margin-left:5%;
         }
+
+        body{
+            overflow-x:hidden;
+        }
         .container_filter{
             justify-content: flex-start;
             flex-direction: row;
@@ -544,6 +556,8 @@ footer{
             flex-direction: column-reverse;
             align-items: flex-end;  
             height:90px;
+            width:100%;
+            margin:0;
           }
 
         #menu{
@@ -554,17 +568,19 @@ footer{
           .container_menu{
               justify-content: space-between;
               flex-direction: column;
+              align-items:flex-start;
           }
 
         #logo{
             justify-content: flex-start;
-            margin-left:1%;
             height:0;
+            margin:0;
         }
 
         nav{
             display: flex;
             width:100%;
+            height:100%;
             justify-content:space-around;
         }
 
@@ -608,6 +624,7 @@ footer{
             background-color:white;
             flex-direction: column;
             height:1600px;
+            flex-wrap:nowrap;
         }
 
         #section_activities{
@@ -618,20 +635,21 @@ footer{
         .container_activities{
             flex-wrap: nowrap;
             flex-direction: column;
+            justify-content:space-around;
             height:95%;
         }
 
         .cadre_activities{
             width:100%;
-            height:17%;
+            height:15%;
         }
 
         .parent_cadre{
-            height:48%;
+            height:46%;
         }
 
         .cadre_fort_pomegues{
-            height:34%;
+            height:30%;
             width:100%;
         }
 
@@ -644,7 +662,7 @@ footer{
         }
 
         .cadre_garde_parc{
-            height:34%;
+            height:30%;
             width:100%;
         }
 
