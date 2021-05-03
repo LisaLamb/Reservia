@@ -581,7 +581,6 @@ footer{
         #bouton{
             height:40%;
         }
-
         nav a.active:hover{
             border-bottom:2px solid blue;
         }
