@@ -14,8 +14,9 @@ body p {
     font-size:1rem;
 }
 
-body a {
+.container_hebergement_populaire a, #section_activities a {
     text-decoration:none;
+    color:black;
 } 
 
 .container_menu, .container_filter, .container_hebergement_populaire, .container_activities, .container_footer{
