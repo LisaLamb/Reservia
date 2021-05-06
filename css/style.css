@@ -6,8 +6,14 @@ body{
 
 }
 
+#container_site{
+    max-width:1440px;
+    align-items:center;
+}
+
 body h5{
     font-size:1.1rem;
+    font-weight:600;
 }
 
 body p {
@@ -44,7 +50,7 @@ nav a:active{
 nav a:hover{
     color:#0065FC;
 }
-nav a:focus{
+nav a:hover{
     color:#0065FC;
     border-top: 2px solid #0065FC;
 }
