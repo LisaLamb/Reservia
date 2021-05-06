@@ -279,6 +279,7 @@ width:30%;
     display:flex;
     justify-content: space-around;
     flex-direction:column;
+    margin-left:3%;
 }
 
 .texte h5{
