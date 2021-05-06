@@ -14,6 +14,10 @@ body p {
     font-size:1rem;
 }
 
+body a {
+    text-decoration:none;
+} 
+
 .container_menu, .container_filter, .container_hebergement_populaire, .container_activities, .container_footer{
     display: flex;
 }
