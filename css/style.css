@@ -281,6 +281,13 @@ width:30%;
     flex-direction:column;
 }
 
+.texte h5{
+    margin:0;
+}
+.texte p{
+    margin-top:0;
+}
+
 .cadre_texte h5{
     margin:0;
 }
@@ -341,6 +348,7 @@ width:30%;
     display:flex;
     justify-content:space-between;
     margin-bottom:8%;
+    height:150px;
 }
 
 #populaires .cadrelong img{
