@@ -9,6 +9,7 @@ body{
 #container_site{
     max-width:1440px;
     align-items:center;
+    margin: 0 auto;
 }
 
 body h5{
